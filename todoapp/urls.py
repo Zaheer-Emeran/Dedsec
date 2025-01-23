@@ -7,6 +7,6 @@ urlpatterns = [
     path('login/',views.loginPage, name='login'),
     path('delete-task/<str:name>',views.DeleteTask, name='delete'),
     path('update/<str:name>',views.Update, name='update'),
-    path('logout/os.environ.get('DATABASE_URL') ',views.logoutView, name='logout'),
+    
     
 ]
